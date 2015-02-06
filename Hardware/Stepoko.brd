@@ -466,8 +466,8 @@ Limit</text>
 <wire x1="29.508" y1="2" x2="30.508" y2="2" width="0.3048" layer="21" curve="180"/>
 <wire x1="46.908" y1="7.9" x2="46.908" y2="0.5" width="0.3048" layer="21" style="shortdash"/>
 <wire x1="32.708" y1="7.5" x2="32.708" y2="0.5" width="0.3048" layer="21" style="shortdash"/>
-<text x="62" y="63" size="2.54" layer="21" font="vector" ratio="15" align="center-left">GRBL</text>
-<text x="70.5" y="60" size="2.54" layer="21" font="vector" ratio="15" align="center-left">Board</text>
+<text x="59.46" y="61.984" size="2.54" layer="21" font="vector" ratio="15" align="center-left">Stepoko</text>
+<text x="61.356" y="58.984" size="1.6764" layer="21" font="vector" ratio="15" align="center-left">Powered by GRBL</text>
 <text x="79.744" y="22.86" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-right">GND</text>
 <text x="79.744" y="25.4" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-right">GND</text>
 <text x="79.744" y="27.94" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="center-right">+5V</text>
