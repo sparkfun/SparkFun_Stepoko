@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25821,7 +25821,6 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="D17" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="MBRA140"/>
 <part name="R53" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="9.76K"/>
 <part name="R54" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="50.0m"/>
-<part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="R55" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="348K"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="SDR13-7-270ML" value="27uH"/>
@@ -25858,6 +25857,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_LARGE" value="Limit Pull Direction"/>
 <part name="GND67" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="C43" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1000pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -25870,9 +25870,9 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <text x="71.12" y="259.08" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">Isolate USB Power
 from Board</text>
 <wire x1="55.88" y1="264.16" x2="55.88" y2="248.92" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="55.88" y1="248.92" x2="88.9" y2="248.92" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="88.9" y1="248.92" x2="88.9" y2="264.16" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="88.9" y1="264.16" x2="55.88" y2="264.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="55.88" y1="248.92" x2="91.44" y2="248.92" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="91.44" y1="248.92" x2="91.44" y2="264.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="91.44" y1="264.16" x2="55.88" y2="264.16" width="0.1524" layer="97" style="shortdash"/>
 <text x="15.24" y="43.18" size="2.54" layer="94" font="vector" ratio="15" align="bottom-center">+</text>
 <text x="15.24" y="38.1" size="2.54" layer="94" font="vector" ratio="15" align="bottom-center">-</text>
 <text x="12.7" y="63.5" size="2.54" layer="94" font="vector" ratio="15" align="bottom-center">-</text>
@@ -25980,7 +25980,7 @@ from Board</text>
 <instance part="P+10" gate="G$1" x="43.18" y="256.54"/>
 <instance part="P+20" gate="G$1" x="33.02" y="228.6" rot="MR0"/>
 <instance part="F1" gate="G$1" x="63.5" y="254"/>
-<instance part="SUPPLY1" gate="G$1" x="83.82" y="256.54"/>
+<instance part="SUPPLY1" gate="G$1" x="86.36" y="256.54"/>
 <instance part="SUPPLY10" gate="G$1" x="91.44" y="243.84"/>
 <instance part="SUPPLY11" gate="G$1" x="101.6" y="243.84"/>
 <instance part="SUPPLY12" gate="G$1" x="180.34" y="251.46"/>
@@ -26066,8 +26066,7 @@ from Board</text>
 <instance part="SUPPLY43" gate="G$1" x="213.36" y="137.16"/>
 <instance part="D17" gate="G$1" x="187.96" y="58.42" rot="R90"/>
 <instance part="R53" gate="G$1" x="213.36" y="55.88" rot="R90"/>
-<instance part="R54" gate="G$1" x="187.96" y="35.56" rot="R90"/>
-<instance part="GND2" gate="1" x="187.96" y="27.94" rot="MR0"/>
+<instance part="R54" gate="G$1" x="180.34" y="48.26"/>
 <instance part="R55" gate="G$1" x="137.16" y="60.96" rot="MR90"/>
 <instance part="SUPPLY4" gate="G$1" x="236.22" y="66.04"/>
 <instance part="L1" gate="G$1" x="200.66" y="63.5" rot="R90"/>
@@ -26106,7 +26105,7 @@ from Board</text>
 <instance part="POWER" gate="G$1" x="76.2" y="50.8"/>
 <instance part="R56" gate="G$1" x="76.2" y="60.96" rot="MR270"/>
 <instance part="GND66" gate="1" x="76.2" y="40.64" rot="MR0"/>
-<instance part="D16" gate="G$1" x="73.66" y="254"/>
+<instance part="D16" gate="G$1" x="76.2" y="254"/>
 <instance part="SJ1" gate="G$1" x="403.86" y="256.54" rot="MR90"/>
 <instance part="GND67" gate="1" x="411.48" y="248.92" rot="MR0"/>
 <instance part="SUPPLY49" gate="G$1" x="388.62" y="259.08" rot="MR0"/>
@@ -26332,10 +26331,6 @@ from Board</text>
 <wire x1="208.28" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="129.54" x2="213.36" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND58" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R54" gate="G$1" pin="1"/>
-<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C39" gate="G$1" pin="2"/>
@@ -26911,8 +26906,8 @@ from Board</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="76.2" y1="254" x2="83.82" y2="254" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="254" x2="83.82" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="254" x2="86.36" y2="254" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="254" x2="86.36" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 <pinref part="D16" gate="G$1" pin="C"/>
 </segment>
@@ -27461,7 +27456,8 @@ from Board</text>
 <wire x1="170.18" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="53.34" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="40.64" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="48.26" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="48.26" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
 <junction x="187.96" y="53.34"/>
 </segment>
 </net>
@@ -27484,6 +27480,7 @@ from Board</text>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="D16" gate="G$1" pin="A"/>
+<wire x1="73.66" y1="254" x2="71.12" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$95" class="0">
@@ -27500,6 +27497,13 @@ from Board</text>
 <pinref part="SJ1" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="251.46" x2="403.86" y2="248.92" width="0.1524" layer="91"/>
 <junction x="403.86" y="248.92"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R54" gate="G$1" pin="1"/>
+<pinref part="U4" gate="G$1" pin="CSG"/>
+<wire x1="175.26" y1="48.26" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -27781,6 +27785,10 @@ from Board</text>
 <instance part="SUPPLY40" gate="G$1" x="337.82" y="124.46"/>
 <instance part="SUPPLY41" gate="G$1" x="307.34" y="132.08"/>
 <instance part="SUPPLY42" gate="G$1" x="350.52" y="200.66"/>
+<instance part="C43" gate="G$1" x="17.78" y="177.8" smashed="yes">
+<attribute name="NAME" x="19.304" y="183.261" size="1.27" layer="95"/>
+<attribute name="VALUE" x="19.304" y="180.721" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
