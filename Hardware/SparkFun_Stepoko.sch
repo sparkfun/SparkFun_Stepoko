@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11212,6 +11212,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="80.38" y="46.92"/>
 </polygon>
 </package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VIN">
@@ -15888,6 +15894,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="40.16" y="23.55"/>
 </polygon>
 </symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VIN" prefix="SUPPLY">
@@ -16010,6 +16021,25 @@ logo. Default layer for the logo on the board is tSilk.</description>
 </technologies>
 </device>
 <device name="1_INCH" package="SFE_LOGO_NAME_FLAME_1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -25398,7 +25428,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="PSMN7R0" value="100A/100V"/>
 <part name="R50" library="SparkFun-Resistors" deviceset="1KOHM1/10W1%(0603)" device="" value="1K"/>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
-<part name="PROTECT" library="SparkFun-LED" deviceset="LED-RED" device="LILYPAD" value="RED"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="LILYPAD" value="RED"/>
 <part name="R51" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-100V-10%(0603)" device="" value="0.1uF"/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="LM25011" device=""/>
@@ -25542,7 +25572,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="SUPPLY48" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH" value="SFE_LOGO_NAME_FLAME.2_INCH"/>
-<part name="POWER" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
+<part name="D18" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
 <part name="R56" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="GND66" library="SparkFun" deviceset="GND" device=""/>
 <part name="D16" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="MBRA140"/>
@@ -25554,6 +25584,8 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="C43" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C45" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C46" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -25573,20 +25605,22 @@ from Board</text>
 <text x="15.24" y="38.1" size="2.54" layer="94" font="vector" ratio="15" align="bottom-center">-</text>
 <text x="12.7" y="63.5" size="2.54" layer="94" font="vector" ratio="15" align="bottom-center">-</text>
 <text x="12.7" y="68.58" size="2.54" layer="94" font="vector" ratio="15" align="bottom-center">+</text>
-<wire x1="330.2" y1="35.56" x2="274.32" y2="35.56" width="0.3048" layer="94"/>
-<wire x1="274.32" y1="35.56" x2="274.32" y2="96.52" width="0.3048" layer="94"/>
-<wire x1="274.32" y1="96.52" x2="274.32" y2="121.92" width="0.3048" layer="94"/>
-<wire x1="274.32" y1="121.92" x2="431.8" y2="121.92" width="0.3048" layer="94"/>
+<wire x1="330.2" y1="35.56" x2="274.32" y2="35.56" width="0.3048" layer="97"/>
+<wire x1="274.32" y1="35.56" x2="274.32" y2="96.52" width="0.3048" layer="97"/>
+<wire x1="274.32" y1="96.52" x2="274.32" y2="121.92" width="0.3048" layer="97"/>
+<wire x1="274.32" y1="121.92" x2="431.8" y2="121.92" width="0.3048" layer="97"/>
 <text x="279.4" y="114.3" size="3.81" layer="94">Status LED's</text>
-<wire x1="274.32" y1="96.52" x2="129.54" y2="96.52" width="0.3048" layer="94"/>
+<wire x1="274.32" y1="96.52" x2="129.54" y2="96.52" width="0.3048" layer="97"/>
 <text x="5.08" y="88.9" size="3.81" layer="94">Power Management</text>
-<wire x1="129.54" y1="96.52" x2="0" y2="96.52" width="0.3048" layer="94"/>
-<wire x1="0" y1="180.34" x2="129.54" y2="180.34" width="0.3048" layer="94"/>
-<wire x1="129.54" y1="180.34" x2="129.54" y2="96.52" width="0.3048" layer="94"/>
+<wire x1="129.54" y1="96.52" x2="0" y2="96.52" width="0.3048" layer="97"/>
+<wire x1="0" y1="180.34" x2="129.54" y2="180.34" width="0.3048" layer="97"/>
+<wire x1="129.54" y1="180.34" x2="129.54" y2="96.52" width="0.3048" layer="97"/>
 <text x="5.08" y="172.72" size="3.81" layer="94">Expansion Headers</text>
-<wire x1="129.54" y1="180.34" x2="129.54" y2="279.4" width="0.3048" layer="94"/>
+<wire x1="129.54" y1="180.34" x2="129.54" y2="279.4" width="0.3048" layer="97"/>
 <text x="5.08" y="271.78" size="3.81" layer="94">USB-&gt;Serial</text>
 <text x="134.62" y="271.78" size="3.81" layer="94">Control Logic</text>
+<text x="40.64" y="45.72" size="1.778" layer="97" rot="R270">Reverse Protect</text>
+<text x="81.28" y="38.1" size="1.778" layer="97" rot="R90">Power</text>
 </plain>
 <instances>
 <instance part="R6" gate="G$1" x="160.02" y="243.84" rot="R90"/>
@@ -25737,7 +25771,7 @@ from Board</text>
 <instance part="Q2" gate="G$1" x="53.34" y="40.64" rot="MR270"/>
 <instance part="R50" gate="G$1" x="53.34" y="55.88" rot="MR270"/>
 <instance part="GND27" gate="1" x="63.5" y="33.02" rot="MR0"/>
-<instance part="PROTECT" gate="G$1" x="45.72" y="48.26" rot="R180"/>
+<instance part="D3" gate="G$1" x="45.72" y="48.26" rot="R180"/>
 <instance part="R51" gate="G$1" x="45.72" y="60.96" rot="MR270"/>
 <instance part="C2" gate="G$1" x="30.48" y="53.34" rot="MR0"/>
 <instance part="U4" gate="G$1" x="154.94" y="55.88"/>
@@ -25796,7 +25830,7 @@ from Board</text>
 <instance part="SUPPLY48" gate="G$1" x="55.88" y="162.56"/>
 <instance part="LOGO1" gate="G$1" x="314.96" y="10.16"/>
 <instance part="LOGO2" gate="G$1" x="246.38" y="2.54"/>
-<instance part="POWER" gate="G$1" x="76.2" y="50.8"/>
+<instance part="D18" gate="G$1" x="76.2" y="50.8"/>
 <instance part="R56" gate="G$1" x="76.2" y="60.96" rot="MR270"/>
 <instance part="GND66" gate="1" x="76.2" y="40.64" rot="MR0"/>
 <instance part="D16" gate="G$1" x="76.2" y="254"/>
@@ -25805,6 +25839,8 @@ from Board</text>
 <instance part="S5" gate="G$1" x="406.4" y="259.08" rot="R90"/>
 <instance part="SUPPLY16" gate="G$1" x="401.32" y="271.78" rot="MR0"/>
 <instance part="GND67" gate="1" x="424.18" y="259.08" rot="MR0"/>
+<instance part="FID1" gate="G$1" x="426.72" y="25.4"/>
+<instance part="FID2" gate="G$1" x="421.64" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -26084,7 +26120,7 @@ from Board</text>
 <junction x="27.94" y="129.54"/>
 </segment>
 <segment>
-<pinref part="POWER" gate="G$1" pin="C"/>
+<pinref part="D18" gate="G$1" pin="C"/>
 <pinref part="GND66" gate="1" pin="GND"/>
 <wire x1="76.2" y1="43.18" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -26938,7 +26974,7 @@ from Board</text>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="35.56" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <junction x="35.56" y="40.64"/>
-<pinref part="PROTECT" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="45.72" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="45.72" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <junction x="45.72" y="40.64"/>
@@ -26957,7 +26993,7 @@ from Board</text>
 <net name="N$41" class="0">
 <segment>
 <pinref part="R51" gate="G$1" pin="2"/>
-<pinref part="PROTECT" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="45.72" y1="55.88" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27169,7 +27205,7 @@ from Board</text>
 <net name="N$62" class="0">
 <segment>
 <pinref part="R56" gate="G$1" pin="2"/>
-<pinref part="POWER" gate="G$1" pin="A"/>
+<pinref part="D18" gate="G$1" pin="A"/>
 <wire x1="76.2" y1="55.88" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27227,9 +27263,9 @@ from Board</text>
 <text x="154.94" y="269.24" size="6.4516" layer="94" ratio="15">Y-Axis</text>
 <text x="287.02" y="269.24" size="6.4516" layer="94" ratio="15">Z-Axis</text>
 <wire x1="147.32" y1="279.4" x2="149.86" y2="279.4" width="0.1524" layer="94"/>
-<wire x1="149.86" y1="279.4" x2="149.86" y2="0" width="0.4064" layer="94"/>
+<wire x1="149.86" y1="279.4" x2="149.86" y2="0" width="0.4064" layer="97"/>
 <wire x1="284.48" y1="279.4" x2="281.94" y2="279.4" width="0.4064" layer="94"/>
-<wire x1="281.94" y1="279.4" x2="281.94" y2="0" width="0.4064" layer="94"/>
+<wire x1="281.94" y1="279.4" x2="281.94" y2="0" width="0.4064" layer="97"/>
 </plain>
 <instances>
 <instance part="GND9" gate="1" x="91.44" y="132.08"/>
