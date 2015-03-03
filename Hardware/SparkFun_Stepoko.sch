@@ -25657,7 +25657,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="GND70" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND71" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND72" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND73" library="SparkFun" deviceset="GND" device=""/>
+<part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25919,7 +25919,7 @@ from Board</text>
 <instance part="GND70" gate="1" x="309.88" y="58.42"/>
 <instance part="GND71" gate="1" x="347.98" y="58.42"/>
 <instance part="GND72" gate="1" x="383.54" y="58.42"/>
-<instance part="GND73" gate="1" x="408.94" y="58.42"/>
+<instance part="SUPPLY19" gate="G$1" x="408.94" y="86.36" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -26248,11 +26248,6 @@ from Board</text>
 <pinref part="GND70" gate="1" pin="GND"/>
 <wire x1="309.88" y1="60.96" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="D11" gate="G$1" pin="C"/>
-<pinref part="GND73" gate="1" pin="GND"/>
-<wire x1="408.94" y1="60.96" x2="408.94" y2="63.5" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="AREF" class="0">
 <segment>
@@ -26307,8 +26302,8 @@ from Board</text>
 </segment>
 <segment>
 <pinref part="R57" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="241.3" x2="104.14" y2="241.3" width="0.1524" layer="91"/>
-<label x="104.14" y="241.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="88.9" y1="241.3" x2="101.6" y2="241.3" width="0.1524" layer="91"/>
+<label x="101.6" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -26516,8 +26511,8 @@ from Board</text>
 </segment>
 <segment>
 <pinref part="R58" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="243.84" x2="104.14" y2="243.84" width="0.1524" layer="91"/>
-<label x="104.14" y="243.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="243.84" x2="101.6" y2="243.84" width="0.1524" layer="91"/>
+<label x="101.6" y="243.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -26847,6 +26842,11 @@ from Board</text>
 <wire x1="414.02" y1="264.16" x2="414.02" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="269.24" x2="401.32" y2="269.24" width="0.1524" layer="91"/>
 <junction x="401.32" y="269.24"/>
+</segment>
+<segment>
+<pinref part="R44" gate="G$1" pin="2"/>
+<pinref part="SUPPLY19" gate="G$1" pin="5V"/>
+<wire x1="408.94" y1="86.36" x2="408.94" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESTOP-LOGIC" class="0">
@@ -27179,9 +27179,9 @@ from Board</text>
 <pinref part="JP2" gate="G$1" pin="16"/>
 </segment>
 <segment>
-<pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="408.94" y1="83.82" x2="408.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="408.94" y="86.36" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="408.94" y1="63.5" x2="408.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="408.94" y="60.96" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="D4-STEP-Z" class="0">
@@ -27230,8 +27230,10 @@ from Board</text>
 <label x="185.42" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<wire x1="68.58" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="119.38" x2="71.12" y2="127" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
-<label x="71.12" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="68.58" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="25"/>
 </segment>
 </net>
@@ -27270,8 +27272,10 @@ from Board</text>
 </segment>
 <segment>
 <wire x1="88.9" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="127" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="26"/>
-<label x="91.44" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="93.98" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$66" class="0">
