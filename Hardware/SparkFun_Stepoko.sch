@@ -16651,7 +16651,7 @@ QFN is non-stock</description>
 <gate name="G$1" symbol="74AHC1G08" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-5">
+<device name="" package="SOT353">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="B" pad="2"/>
@@ -16660,9 +16660,7 @@ QFN is non-stock</description>
 <connect gate="G$1" pin="Y" pad="4"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-10841" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -25725,6 +25723,7 @@ A7- UNUSED</text>
 <wire x1="157.48" y1="167.64" x2="157.48" y2="160.02" width="0.3048" layer="97"/>
 <wire x1="157.48" y1="160.02" x2="157.48" y2="96.52" width="0.3048" layer="97"/>
 <wire x1="129.54" y1="160.02" x2="157.48" y2="160.02" width="0.3048" layer="97"/>
+<text x="10.16" y="45.72" size="1.778" layer="97" rot="R90">VIN 12-30VDC</text>
 </plain>
 <instances>
 <instance part="R6" gate="G$1" x="170.18" y="254" rot="R90"/>
