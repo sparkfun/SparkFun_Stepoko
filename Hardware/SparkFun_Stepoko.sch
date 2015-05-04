@@ -25353,7 +25353,6 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="Testing"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -25498,9 +25497,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="LILYPAD" value="RED"/>
 <part name="R51" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-100V-10%(0603)" device="" value="0.1uF">
-<variant name="Testing" populate="no"/>
-</part>
+<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-100V-10%(0603)" device="" value="0.1uF"/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="LM25011" device=""/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF50V10%(1206)" device="" value="1.0uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
