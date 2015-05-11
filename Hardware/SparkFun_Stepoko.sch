@@ -25704,7 +25704,7 @@ from Board</text>
 <text x="40.64" y="45.72" size="1.778" layer="97" rot="R270">Reverse Protect</text>
 <text x="81.28" y="38.1" size="1.778" layer="97" rot="R90">Power</text>
 <text x="350.52" y="10.16" size="2.54" layer="94">Casey Kuhns</text>
-<text x="421.64" y="7.62" size="2.54" layer="94">v03</text>
+<text x="421.64" y="7.62" size="2.54" layer="94">v04</text>
 <text x="132.08" y="99.06" size="1.778" layer="97">D0- RX 
 D1- TX
 D2- STEP X
@@ -27430,7 +27430,7 @@ A7- UNUSED</text>
 <wire x1="149.86" y1="279.4" x2="149.86" y2="0" width="0.4064" layer="97"/>
 <wire x1="284.48" y1="279.4" x2="281.94" y2="279.4" width="0.4064" layer="94"/>
 <wire x1="287.02" y1="279.4" x2="287.02" y2="0" width="0.4064" layer="97"/>
-<text x="421.64" y="7.62" size="2.54" layer="94">v03</text>
+<text x="421.64" y="7.62" size="2.54" layer="94">v04</text>
 <text x="350.52" y="10.16" size="2.54" layer="94">Casey Kuhns</text>
 </plain>
 <instances>
