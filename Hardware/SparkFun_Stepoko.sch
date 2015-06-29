@@ -16606,7 +16606,7 @@ Used on single circuit logic gates</description>
 <text x="-3.81" y="-15.24" size="1.27" layer="94" align="bottom-center">A</text>
 <text x="3.81" y="-15.24" size="1.27" layer="94" align="bottom-center">Y</text>
 </symbol>
-<symbol name="CY7C65213">
+<symbol name="FT232R">
 <wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
 <wire x1="10.16" y1="20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-20.32" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
@@ -16619,7 +16619,7 @@ Used on single circuit logic gates</description>
 <pin name="DSR" x="15.24" y="2.54" length="middle" direction="in" function="dot" rot="R180"/>
 <pin name="DCD" x="15.24" y="0" length="middle" direction="in" function="dot" rot="R180"/>
 <pin name="RI" x="15.24" y="-2.54" length="middle" direction="in" function="dot" rot="R180"/>
-<pin name="VCCD" x="-15.24" y="7.62" length="middle" direction="out"/>
+<pin name="3V3OUT" x="-15.24" y="7.62" length="middle" direction="out"/>
 <pin name="USBDM" x="-15.24" y="17.78" length="middle"/>
 <pin name="USBDP" x="-15.24" y="15.24" length="middle"/>
 <pin name="GND7" x="-15.24" y="-12.7" length="middle" direction="pwr"/>
@@ -16778,15 +16778,18 @@ signals.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CY7C65213" prefix="U">
-<description>&lt;b&gt;USB UART&lt;/b&gt;&lt;br&gt;
-CY7C65213 USB-UART controller.</description>
+<deviceset name="FT232RL" prefix="U">
+<description>&lt;b&gt;USB UART&lt;/b&gt;
+FT232RL 4&lt;sup&gt;th&lt;/sup&gt; Generation USB UART (USB &amp;lt;-&amp;gt; Serial) Controller. &lt;br&gt;
+Spark Fun Electronics SKU : COM-00650&lt;br&gt;
+Production SKU IC-00870</description>
 <gates>
-<gate name="G$1" symbol="CY7C65213" x="0" y="0"/>
+<gate name="G$1" symbol="FT232R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SSOP28DB">
+<device name="SSOP" package="SSOP28DB">
 <connects>
+<connect gate="G$1" pin="3V3OUT" pad="17"/>
 <connect gate="G$1" pin="AGND" pad="25"/>
 <connect gate="G$1" pin="CTS" pad="11"/>
 <connect gate="G$1" pin="DCD" pad="10"/>
@@ -16811,12 +16814,11 @@ CY7C65213 USB-UART controller.</description>
 <connect gate="G$1" pin="USBDM" pad="16"/>
 <connect gate="G$1" pin="USBDP" pad="15"/>
 <connect gate="G$1" pin="VCC" pad="20"/>
-<connect gate="G$1" pin="VCCD" pad="17"/>
 <connect gate="G$1" pin="VCCIO" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-12487"/>
+<attribute name="PROD_ID" value="IC-00870"/>
 </technology>
 </technologies>
 </device>
@@ -25631,7 +25633,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="C52" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD" value="Reset"/>
 <part name="Q1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHZ"/>
-<part name="U2" library="SparkFun-DigitalIC" deviceset="CY7C65213" device=""/>
+<part name="U2" library="SparkFun-DigitalIC" deviceset="FT232RL" device="SSOP"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="USB" device="PTH" value="USB-B"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_LOCK" value="POWER"/>
 <part name="VIN" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="3.5mm"/>
@@ -26940,6 +26942,11 @@ A7- UNUSED</text>
 <pinref part="U6" gate="1" pin="4A"/>
 <label x="345.44" y="200.914" size="1.27" layer="97" font="vector" ratio="10"/>
 </segment>
+<segment>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="408.94" y1="63.5" x2="408.94" y2="60.96" width="0.1524" layer="91"/>
+<label x="408.94" y="60.96" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="N$57" class="0">
 <segment>
@@ -27451,11 +27458,6 @@ A7- UNUSED</text>
 <wire x1="88.9" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="16"/>
 </segment>
-<segment>
-<pinref part="D11" gate="G$1" pin="C"/>
-<wire x1="408.94" y1="63.5" x2="408.94" y2="60.96" width="0.1524" layer="91"/>
-<label x="408.94" y="60.96" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="D4-STEP-Z" class="0">
 <segment>
@@ -27633,7 +27635,7 @@ A7- UNUSED</text>
 </net>
 <net name="N$98" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="VCCD"/>
+<pinref part="U2" gate="G$1" pin="3V3OUT"/>
 <pinref part="C47" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="233.68" x2="33.02" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="233.68" x2="33.02" y2="223.52" width="0.1524" layer="91"/>
