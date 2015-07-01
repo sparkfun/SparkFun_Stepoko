@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -25938,7 +25938,7 @@ from Board</text>
 <text x="40.64" y="45.72" size="1.778" layer="97" rot="R270">Reverse Protect</text>
 <text x="81.28" y="38.1" size="1.778" layer="97" rot="R90">Power</text>
 <text x="350.52" y="10.16" size="2.54" layer="94">Casey Kuhns</text>
-<text x="421.64" y="7.62" size="2.54" layer="94">v04</text>
+<text x="421.64" y="7.62" size="2.54" layer="94">v10</text>
 <text x="132.08" y="99.06" size="1.778" layer="97">D0- RX 
 D1- TX
 D2- STEP X
@@ -27664,7 +27664,7 @@ A7- UNUSED</text>
 <wire x1="149.86" y1="279.4" x2="149.86" y2="0" width="0.4064" layer="97"/>
 <wire x1="284.48" y1="279.4" x2="281.94" y2="279.4" width="0.4064" layer="94"/>
 <wire x1="289.56" y1="279.4" x2="289.56" y2="0" width="0.4064" layer="97"/>
-<text x="421.64" y="7.62" size="2.54" layer="94">v04</text>
+<text x="421.64" y="7.62" size="2.54" layer="94">v10</text>
 <text x="350.52" y="10.16" size="2.54" layer="94">Casey Kuhns</text>
 <wire x1="138.43" y1="181.61" x2="140.97" y2="181.61" width="0.1524" layer="94"/>
 <wire x1="138.43" y1="186.69" x2="140.97" y2="186.69" width="0.1524" layer="94"/>

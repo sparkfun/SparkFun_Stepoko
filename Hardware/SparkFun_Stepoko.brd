@@ -152,7 +152,7 @@
 </layers>
 <board>
 <plain>
-<text x="148.99" y="10.66" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">v04</text>
+<text x="148.99" y="10.66" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">v10</text>
 <text x="149" y="32" size="1.778" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">VIN 
 +12-30V</text>
 <text x="149" y="53" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">Reverse
