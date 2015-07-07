@@ -270,7 +270,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="0.6578" y="-1.588" curve="9.499253"/>
 <vertex x="0.9108" y="-1.4576"/>
 <vertex x="1.5392" y="-1.97"/>
@@ -344,7 +344,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.2">
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="1.45" y="2.7"/>
 <vertex x="1.46" y="2.59"/>
 <vertex x="1.5" y="2.49"/>
@@ -458,7 +458,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="1.27" y="2.7"/>
 <vertex x="1.36" y="2.7"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="5.66" y="2.71"/>
 <vertex x="5.71" y="2.86"/>
 <vertex x="5.73" y="3.02"/>
@@ -468,7 +468,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="6.44" y="2.62"/>
 <vertex x="6.35" y="2.38"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="6.35" y="2.38"/>
 <vertex x="6.21" y="2.16"/>
 <vertex x="6.04" y="1.97"/>
@@ -570,7 +570,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="5.6" y="2.57"/>
 <vertex x="5.66" y="2.71"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.7" y="3.41"/>
 <vertex x="7.88" y="3.43"/>
 <vertex x="8.05" y="3.45"/>
@@ -587,7 +587,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="7.89" y="2.98"/>
 <vertex x="7.85" y="2.97"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.85" y="2.97"/>
 <vertex x="7.81" y="2.96"/>
 <vertex x="7.77" y="2.94"/>
@@ -850,7 +850,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="7.52" y="3.38"/>
 <vertex x="7.7" y="3.41"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="9.84" y="4.48"/>
 <vertex x="9.93" y="4.5"/>
 <vertex x="10.03" y="4.51"/>
@@ -932,7 +932,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="9.83" y="3.81"/>
 <vertex x="9.83" y="4.14"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="11.96" y="5.26"/>
 <vertex x="12.74" y="5.69"/>
 <vertex x="12.74" y="3.6"/>
@@ -946,7 +946,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="12.74" y="1.79"/>
 <vertex x="11.96" y="1.79"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="15.23" y="4.09"/>
 <vertex x="15.13" y="4.09"/>
 <vertex x="15.04" y="4.09"/>
@@ -1076,7 +1076,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="15.23" y="3.52"/>
 <vertex x="15.23" y="3.81"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.41" y="1.79"/>
 <vertex x="19.32" y="1.79"/>
 <vertex x="19.23" y="1.79"/>
@@ -1174,7 +1174,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="19.42" y="2.49"/>
 <vertex x="19.42" y="2.14"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.84" y="4.61"/>
 <vertex x="19.93" y="4.61"/>
 <vertex x="20.03" y="4.61"/>
@@ -1273,7 +1273,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="19.83" y="3.91"/>
 <vertex x="19.83" y="4.26"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="16.33" y="9.47"/>
 <vertex x="16.33" y="9.45"/>
 <vertex x="16.34" y="9.42"/>
@@ -17230,26 +17230,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
 <pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
 </package>
-<package name="SCREWTERMINAL-3.5MM-2">
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="1X02_BIG">
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
@@ -20625,28 +20605,6 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <wire x1="26.67" y1="3.175" x2="26.67" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="29.21" y1="3.175" x2="29.21" y2="-0.635" width="0.2032" layer="21"/>
 </package>
-<package name="JST-2-SMD">
-<description>2mm SMD side-entry connector. tDocu layer indicates the actual physical plastic housing. +/- indicate SparkFun standard batteries and wiring.</description>
-<wire x1="-4" y1="-1" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-4.5" x2="-3.2" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-4.5" x2="-3.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.2" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="2" y1="-2" x2="3.2" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="-2" x2="3.2" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="-4.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.5" x2="4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2" y1="3" x2="-2" y2="3" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.27" y="0" size="0.4064" layer="27">&gt;Value</text>
-<text x="-1.8415" y="-3.81" size="1.27" layer="21" font="vector" ratio="15" align="center-right">&gt;TOP_NEG</text>
-<text x="-1.8415" y="-3.81" size="1.27" layer="22" font="vector" ratio="15" align="center-right">&gt;BTM_NEG</text>
-<text x="1.8415" y="-3.81" size="1.27" layer="21" font="vector" ratio="15" rot="R180" align="center-right">&gt;TOP_POS</text>
-<text x="1.8415" y="-3.81" size="1.27" layer="22" font="vector" ratio="15" rot="R180" align="center-right">&gt;BTM_POS</text>
-</package>
 <package name="1X12_LOCK_NO_SILK">
 <pad name="1" x="0" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="2.54" y="-0.127" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -20674,6 +20632,44 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
+</package>
+<package name="SCREWTERMINAL-3.5MM-2">
+<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-1.35" x2="-2.25" y2="-1.35" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-1.35" x2="-2.25" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="3.15" x2="5.75" y2="3.15" width="0.2032" layer="51"/>
+<wire x1="5.75" y1="3.15" x2="5.75" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="5.75" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
+<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="JST-2-SMD">
+<description>2mm SMD side-entry connector. tDocu layer indicates the actual physical plastic housing. +/- indicate SparkFun standard batteries and wiring.</description>
+<wire x1="-4" y1="-1" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-3.2" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-4.5" x2="-3.2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="2" y1="-2" x2="3.2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-2" x2="3.2" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="-4.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.5" x2="4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2" y1="3" x2="-2" y2="3" width="0.2032" layer="21"/>
+<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.27" y="0" size="0.4064" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -21375,7 +21371,10 @@ Mating wall wart : TOL-00298 (and others)</description>
 <connect gate="G$1" pin="PWR" pad="VIN0"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-08106" constant="no"/>
+<attribute name="SF_ID" value="PRT-12748" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PTH_BREAD" package="POWER_JACK_PTH_BREAD">
@@ -24004,21 +24003,6 @@ High-power, low thermal resistance package.</description>
 <text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="TO-263/D2PAK">
 <wire x1="5" y1="-1" x2="5" y2="-3.4" width="0.2032" layer="21"/>
 <wire x1="5" y1="-3.4" x2="-5" y2="-3.4" width="0.2032" layer="21"/>
@@ -24051,6 +24035,21 @@ High-power, low thermal resistance package.</description>
 <rectangle x1="1.81" y1="-7.6" x2="3.27" y2="-3.4" layer="51"/>
 <rectangle x1="-3.27" y1="-4.9" x2="-1.81" y2="-3.4" layer="21"/>
 <rectangle x1="1.81" y1="-4.9" x2="3.27" y2="-3.4" layer="21"/>
+</package>
+<package name="SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -29107,7 +29106,6 @@ B-</text>
 </sheets>
 <errors>
 <approved hash="102,1,43.18,256.54,3.3V,VCC_USB,,,,"/>
-<approved hash="102,1,33.02,228.6,3.3V,VCC_USB,,,,"/>
 <approved hash="202,1,45.72,220.98,U2,RESET,,,,"/>
 <approved hash="202,1,45.72,226.06,U2,OSCI,,,,"/>
 <approved hash="202,1,76.2,228.6,U2,DSR,,,,"/>
@@ -29124,11 +29122,6 @@ B-</text>
 <approved hash="202,1,76.2,210.82,U2,TXDEN,,,,"/>
 <approved hash="202,1,76.2,208.28,U2,SLEEP,,,,"/>
 <approved hash="104,1,345.44,220.98,U6,VCC,5V,,,"/>
-<approved hash="208,1,35.56,124.46,VCC,sup,,,,"/>
-<approved hash="208,1,99.06,63.5,VCC,out,,,,"/>
-<approved hash="208,1,101.6,76.2,VCC,sup,,,,"/>
-<approved hash="208,1,66.04,160.02,VCC,sup,,,,"/>
-<approved hash="113,1,91.44,58.9026,U10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
