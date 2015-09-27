@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="freecadexport">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <circle id="1" c="30.5,14.25,0" d="8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="2" c="17.5,52.25,0" d="6.8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <pline id="3" Closed="true">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>0,0,0</p>
+            <p>152.4,0,0</p>
+            <p>152.4,127,0</p>
+            <p>0,127,0</p>
+          </pts>
+        </pline>
+        <circle id="4" c="19,76,0" d="8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="5" c="131.25,76.25,0" d="6.8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="6" c="115,33.25,0" d="19">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="7" c="115,44.2350733678,0" d="3">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="8" c="17.5,14.25,0" d="6.8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="9" c="110.25,95,0" d="3.6">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="10" c="110.25,77,0" d="3.6">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="11" c="79.75,95,0" d="3.6">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="12" c="79.75,77,0" d="3.6">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <pline id="13" Closed="true">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>74,93,0</p>
+            <p>116,93,0</p>
+            <p>116,79,0</p>
+            <p>74,79,0</p>
+          </pts>
+        </pline>
+        <circle id="14" c="131.25,95.25,0" d="6.8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="15" c="44.5,76,0" d="8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="16" c="30.5,52,0" d="8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="17" c="17.5,33.25,0" d="6.8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="18" c="30.5,33.25,0" d="8">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+  </MachiningOptions>
+  <parts>
+    <part Name="Part1">
+      <machineops>
+        <profile>
+          <WorkPlane state="Default">XY</WorkPlane>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
+          <ToolDiameter state="Value">3</ToolDiameter>
+          <ToolNumber state="Default">0</ToolNumber>
+          <ToolProfile state="Default">Unspecified</ToolProfile>
+          <PlungeFeedrate state="Default">300</PlungeFeedrate>
+          <CutFeedrate state="Default">800</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
+          <StartPoint state="Default" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
+          <Name>Profile1</Name>
+          <StockSurface state="Value">0</StockSurface>
+          <RoughingClearance state="Default">0</RoughingClearance>
+          <ClearancePlane state="Value">10</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Default">1000</SpindleSpeed>
+          <SpindleRange state="Default">0</SpindleRange>
+          <VelocityMode state="Default">Undefined</VelocityMode>
+          <primitive>
+            <prim>1</prim>
+            <prim>2</prim>
+            <prim>4</prim>
+            <prim>5</prim>
+            <prim>6</prim>
+            <prim>7</prim>
+            <prim>8</prim>
+            <prim>9</prim>
+            <prim>10</prim>
+            <prim>11</prim>
+            <prim>12</prim>
+            <prim>13</prim>
+            <prim>14</prim>
+            <prim>15</prim>
+            <prim>16</prim>
+            <prim>17</prim>
+            <prim>18</prim>
+          </primitive>
+          <TargetDepth state="Value">-5</TargetDepth>
+          <DepthIncrement state="Value">1.5</DepthIncrement>
+          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
+          <CutOrdering state="Default">DepthFirst</CutOrdering>
+          <CutWidth state="Default">0</CutWidth>
+          <StepOver state="Default">0.4</StepOver>
+          <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
+          <InsideOutside state="Value">Inside</InsideOutside>
+          <MillingDirection state="Default">Conventional</MillingDirection>
+          <CollisionDetection state="Default">True</CollisionDetection>
+          <CornerOvercut state="Default">False</CornerOvercut>
+          <LeadInMove state="Default" />
+          <LeadOutMove state="Default" />
+          <HoldingTabs state="Default">
+            <TabMethod>None</TabMethod>
+            <Width>3</Width>
+            <Height>3</Height>
+            <MinimumTabs>3</MinimumTabs>
+            <MaximumTabs>6</MaximumTabs>
+            <TabDistance>40</TabDistance>
+            <SizeThreshold>4</SizeThreshold>
+            <UseLeadIns>False</UseLeadIns>
+            <TabStyle>Triangle</TabStyle>
+          </HoldingTabs>
+          <SideProfile state="Default" />
+        </profile>
+        <drill>
+          <WorkPlane state="Default">XY</WorkPlane>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
+          <ToolDiameter state="Value">2.99</ToolDiameter>
+          <ToolNumber state="Default">0</ToolNumber>
+          <ToolProfile state="Default">Unspecified</ToolProfile>
+          <PlungeFeedrate state="Default">300</PlungeFeedrate>
+          <CutFeedrate state="Default">800</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
+          <StartPoint state="Default" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
+          <Name>Drill1</Name>
+          <StockSurface state="Default">0</StockSurface>
+          <RoughingClearance state="Default">0</RoughingClearance>
+          <ClearancePlane state="Value">10</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Default">1000</SpindleSpeed>
+          <SpindleRange state="Default">0</SpindleRange>
+          <VelocityMode state="Default">Undefined</VelocityMode>
+          <primitive>
+            <prim>9</prim>
+            <prim>11</prim>
+            <prim>12</prim>
+            <prim>10</prim>
+            <prim>7</prim>
+          </primitive>
+          <TargetDepth state="Value">-5</TargetDepth>
+          <DepthIncrement state="Value">1.5</DepthIncrement>
+          <DrillLeadOut state="Default">False</DrillLeadOut>
+          <SpiralFlatBase state="Default">True</SpiralFlatBase>
+          <LeadOutLength state="Default">0</LeadOutLength>
+          <DrillingMethod state="Default">SpiralMill_CW</DrillingMethod>
+          <PeckDistance state="Default">0</PeckDistance>
+          <RetractHeight state="Default">10</RetractHeight>
+          <Dwell state="Default">0</Dwell>
+          <CustomScript state="Default" />
+        </drill>
+        <profile>
+          <WorkPlane state="Default">XY</WorkPlane>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
+          <ToolDiameter state="Value">3</ToolDiameter>
+          <ToolNumber state="Default">0</ToolNumber>
+          <ToolProfile state="Default">Unspecified</ToolProfile>
+          <PlungeFeedrate state="Default">300</PlungeFeedrate>
+          <CutFeedrate state="Default">800</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
+          <StartPoint state="Default" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
+          <Name>Profile2</Name>
+          <StockSurface state="Default">0</StockSurface>
+          <RoughingClearance state="Default">0</RoughingClearance>
+          <ClearancePlane state="Value">10</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Default">1000</SpindleSpeed>
+          <SpindleRange state="Default">0</SpindleRange>
+          <VelocityMode state="Default">Undefined</VelocityMode>
+          <primitive>
+            <prim>3</prim>
+          </primitive>
+          <TargetDepth state="Value">-5</TargetDepth>
+          <DepthIncrement state="Value">1.5</DepthIncrement>
+          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
+          <CutOrdering state="Default">DepthFirst</CutOrdering>
+          <CutWidth state="Default">0</CutWidth>
+          <StepOver state="Default">0.4</StepOver>
+          <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
+          <InsideOutside state="Default">Outside</InsideOutside>
+          <MillingDirection state="Default">Conventional</MillingDirection>
+          <CollisionDetection state="Default">True</CollisionDetection>
+          <CornerOvercut state="Default">False</CornerOvercut>
+          <LeadInMove state="Default" />
+          <LeadOutMove state="Default" />
+          <HoldingTabs state="Default">
+            <TabMethod>None</TabMethod>
+            <Width>3</Width>
+            <Height>3</Height>
+            <MinimumTabs>3</MinimumTabs>
+            <MaximumTabs>6</MaximumTabs>
+            <TabDistance>40</TabDistance>
+            <SizeThreshold>4</SizeThreshold>
+            <UseLeadIns>False</UseLeadIns>
+            <TabStyle>Triangle</TabStyle>
+          </HoldingTabs>
+          <SideProfile state="Default" />
+        </profile>
+      </machineops>
+      <Stock>
+        <PMin>0,0</PMin>
+        <PMax>0,0</PMax>
+        <Color>255,165,0</Color>
+      </Stock>
+      <ToolProfile>Unspecified</ToolProfile>
+      <Nesting>
+        <BasePoint />
+        <NestMethod>None</NestMethod>
+      </Nesting>
+    </part>
+  </parts>
+  <ActiveLayer>0</ActiveLayer>
+  <ActivePart>Part1</ActivePart>
+</CADFile>
