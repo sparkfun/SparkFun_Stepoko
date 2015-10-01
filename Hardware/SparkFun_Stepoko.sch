@@ -22683,10 +22683,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
@@ -22696,8 +22692,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-1.6002" y1="0.6858" x2="1.6002" y2="0.6858" width="0.0508" layer="39"/>
+<wire x1="1.6002" y1="0.6858" x2="1.6002" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="1.6002" y1="-0.6858" x2="-1.6002" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="-1.6002" y1="-0.6858" x2="-1.6002" y2="0.6858" width="0.0508" layer="39"/>
+<rectangle x1="-0.1905" y1="-0.3048" x2="0.1905" y2="0.3048" layer="21"/>
 </package>
 <package name="0603-RES">
+<wire x1="-1.6002" y1="0.6858" x2="1.6002" y2="0.6858" width="0.0508" layer="39"/>
+<wire x1="1.6002" y1="0.6858" x2="1.6002" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="1.6002" y1="-0.6858" x2="-1.6002" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="-1.6002" y1="-0.6858" x2="-1.6002" y2="0.6858" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.1905" y1="-0.381" x2="0.1905" y2="0.381" layer="21"/>
+</package>
+<package name="0603-RES@1">
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -22720,6 +22737,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="2" x="1.6" y="0" dx="1.2" dy="2" layer="1"/>
 <text x="-1.778" y="1.524" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-1.524" y="-2.286" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-2.413" y1="1.2065" x2="2.413" y2="1.2065" width="0.0508" layer="39"/>
+<wire x1="2.413" y1="1.2065" x2="2.413" y2="-1.2065" width="0.0508" layer="39"/>
+<wire x1="2.413" y1="-1.2065" x2="-2.413" y2="-1.2065" width="0.0508" layer="39"/>
+<wire x1="-2.413" y1="-1.2065" x2="-2.413" y2="1.2065" width="0.0508" layer="39"/>
 </package>
 <package name="TC33X">
 <circle x="0" y="0" radius="1.15" width="0.1016" layer="51"/>
@@ -22786,7 +22807,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0603-RES">
+<device name="" package="0603-RES@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -22851,25 +22872,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="RES-12377" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3KOHM1/10W1%(0603)" prefix="R" uservalue="yes">
-<description>RES-07851</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07851" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25631,7 +25633,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="C32" library="SparkFun-Capacitors" deviceset="0.18UF-10V(+-10%)(0603)" device="" value="0.18uF"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+18" library="SparkFun" deviceset="VCC" device="" value="12V"/>
-<part name="R37" library="SparkFun-Resistors" deviceset="3.3KOHM1/10W1%(0603)" device="" value="3.3K"/>
+<part name="R37" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="GND26" library="SparkFun" deviceset="GND" device=""/>
 <part name="C44" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
@@ -25794,7 +25796,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="47UF-50V-20%(ELECT)" device="" value="47uF"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="0.18UF-10V(+-10%)(0603)" device="" value="0.18uF"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="3.3KOHM1/10W1%(0603)" device="" value="3.3K"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
@@ -25834,7 +25836,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="47UF-50V-20%(ELECT)" device="" value="47uF"/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="0.18UF-10V(+-10%)(0603)" device="" value="0.18uF"/>
-<part name="R25" library="SparkFun-Resistors" deviceset="3.3KOHM1/10W1%(0603)" device="" value="3.3K"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
 <part name="C37" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND54" library="SparkFun" deviceset="GND" device=""/>
@@ -27682,7 +27684,7 @@ A7- UNUSED</text>
 <wire x1="149.86" y1="279.4" x2="149.86" y2="0" width="0.4064" layer="97"/>
 <wire x1="284.48" y1="279.4" x2="281.94" y2="279.4" width="0.4064" layer="94"/>
 <wire x1="289.56" y1="279.4" x2="289.56" y2="0" width="0.4064" layer="97"/>
-<text x="421.64" y="7.62" size="2.54" layer="94">v10</text>
+<text x="421.64" y="7.62" size="2.54" layer="94">v11</text>
 <text x="350.52" y="10.16" size="2.54" layer="94">Casey Kuhns</text>
 <wire x1="130.81" y1="181.61" x2="133.35" y2="181.61" width="0.1524" layer="94"/>
 <wire x1="130.81" y1="186.69" x2="133.35" y2="186.69" width="0.1524" layer="94"/>
