@@ -22757,6 +22757,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="3" x="1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
 <text x="-1.905" y="-1.905" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
 <text x="2.54" y="-1.905" size="0.8128" layer="27" font="vector" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-1.8034" y1="2.5019" x2="1.8034" y2="2.5019" width="0.0508" layer="39"/>
+<wire x1="1.8034" y1="2.5019" x2="1.8034" y2="-2.6289" width="0.0508" layer="39"/>
+<wire x1="1.8034" y1="-2.6289" x2="-1.8034" y2="-2.6289" width="0.0508" layer="39"/>
+<wire x1="-1.8034" y1="-2.6289" x2="-1.8034" y2="2.5019" width="0.0508" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -22915,7 +22919,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="2K_LINEAR_POT_SMD">
+<deviceset name="10K_LINEAR_POT_SMD">
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="0"/>
 </gates>
@@ -25639,7 +25643,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
-<part name="POT1" library="SparkFun-Resistors" deviceset="2K_LINEAR_POT_SMD" device=""/>
+<part name="POT1" library="SparkFun-Resistors" deviceset="10K_LINEAR_POT_SMD" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
@@ -25802,7 +25806,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
-<part name="POT2" library="SparkFun-Resistors" deviceset="2K_LINEAR_POT_SMD" device=""/>
+<part name="POT2" library="SparkFun-Resistors" deviceset="10K_LINEAR_POT_SMD" device=""/>
 <part name="R17" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0"/>
 <part name="Y-A" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="3.5mm"/>
 <part name="Y-B" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="3.5mm"/>
@@ -25842,7 +25846,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="GND54" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="SUPPLY36" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
-<part name="POT3" library="SparkFun-Resistors" deviceset="2K_LINEAR_POT_SMD" device=""/>
+<part name="POT3" library="SparkFun-Resistors" deviceset="10K_LINEAR_POT_SMD" device=""/>
 <part name="R26" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0"/>
 <part name="Z-A" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="3.5mm"/>
 <part name="Z-B" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="3.5mm"/>
