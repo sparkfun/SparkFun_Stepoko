@@ -16930,7 +16930,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
+<wire x1="0" y1="0.027940625" x2="0" y2="-0.027940625" width="0.381" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
@@ -16939,7 +16939,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="1206">
+<package name="1206-CAP">
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
@@ -16952,7 +16952,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 </package>
 <package name="1210">
 <wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.127" layer="51"/>
@@ -17114,16 +17114,13 @@ Standard decoupling cap</description>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1206">
+<device name="" package="1206-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09822"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -25627,9 +25624,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="R10" library="SparkFun-Resistors" deviceset="0.1OHM-1/2W-1%(1210)" device="" value="0.1"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="0.1OHM-1/2W-1%(1210)" device="" value="0.1"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="39KOHM-1/10W-1%(0603)" device="" value="39K"/>
-<part name="C21" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1000pF"/>
+<part name="C21" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1nF"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="39KOHM-1/10W-1%(0603)" device="" value="39K"/>
-<part name="C22" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1000pF"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1nF"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="5.6KOHM-1/10W-1%(0603)" device="" value="5.6K"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="5.6KOHM-1/10W-1%(0603)" device="" value="5.6K"/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
@@ -25792,9 +25789,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="R2" library="SparkFun-Resistors" deviceset="0.1OHM-1/2W-1%(1210)" device="" value="0.1"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="0.1OHM-1/2W-1%(1210)" device="" value="0.1"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="39KOHM-1/10W-1%(0603)" device="" value="39K"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1000pF"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1nF"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="39KOHM-1/10W-1%(0603)" device="" value="39K"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1000pF"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1nF"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="5.6KOHM-1/10W-1%(0603)" device="" value="5.6K"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="5.6KOHM-1/10W-1%(0603)" device="" value="5.6K"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
@@ -25832,9 +25829,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="R19" library="SparkFun-Resistors" deviceset="0.1OHM-1/2W-1%(1210)" device="" value="0.1"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="0.1OHM-1/2W-1%(1210)" device="" value="0.1"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="39KOHM-1/10W-1%(0603)" device="" value="39K"/>
-<part name="C33" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1000pF"/>
+<part name="C33" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1nF"/>
 <part name="R22" library="SparkFun-Resistors" deviceset="39KOHM-1/10W-1%(0603)" device="" value="39K"/>
-<part name="C34" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1000pF"/>
+<part name="C34" library="SparkFun-Capacitors" deviceset="1NF/1000PF-50V-10%(0603)" device="" value="1nF"/>
 <part name="R23" library="SparkFun-Resistors" deviceset="5.6KOHM-1/10W-1%(0603)" device="" value="5.6K"/>
 <part name="R24" library="SparkFun-Resistors" deviceset="5.6KOHM-1/10W-1%(0603)" device="" value="5.6K"/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
@@ -25904,9 +25901,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="S5" library="SparkFun-Electromechanical" deviceset="SWITCH-DPDT" device="AYZ0202" value="DPDT"/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND67" library="SparkFun" deviceset="GND" device=""/>
-<part name="C43" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="C45" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="C46" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="C43" library="SparkFun-Capacitors" deviceset="0.1UF-100V-10%(0603)" device="" value="0.1uF"/>
+<part name="C45" library="SparkFun-Capacitors" deviceset="0.1UF-100V-10%(0603)" device="" value="0.1uF"/>
+<part name="C46" library="SparkFun-Capacitors" deviceset="0.1UF-100V-10%(0603)" device="" value="0.1uF"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="GND68" library="SparkFun" deviceset="GND" device=""/>
