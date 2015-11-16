@@ -7,7 +7,7 @@ SparkFun GRBL Board
 
 <Basic description of the part.>
 
-Repository Contents
+Repository Contents (template)
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
@@ -17,6 +17,15 @@ Repository Contents
 * **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
 * **/Software** - Related software for the <PRODUCT NAME>
+
+Repository Contents (working)
+-------------------
+
+* **/Examples** - Example cut paths and mill projects
+* **/Hardware** - Eagle design files (.brd, .sch)
+* **/Mechanical** - Enclosure and heatsink mechanical drawings
+* **/notes** - misc meeting and project management info
+* **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
