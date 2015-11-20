@@ -1,51 +1,36 @@
 SparkFun GRBL Board
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkFun Stepoko](https://cdn.sparkfun.com//assets/parts/1/0/2/5/5/13155-01a.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Stepoko (ROB-13155)*](https://www.sparkfun.com/products/13155)
 
-<Basic description of the part.>
+A 3 axis motor controller for use with grbl.
 
 Repository Contents (template)
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
-* **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
-
-Repository Contents (working)
--------------------
-
-* **/Examples** - Example cut paths and mill projects
+* **/Examples** - Example gcode files, projects, and settings
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Mechanical** - Enclosure and heatsink mechanical drawings
-* **/notes** - misc meeting and project management info
 * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **Hookup Guide** - Basic hookup guide for the Stepoko
+* **Coaster Project Tutorial** - Process of creating the coaster example
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+[*SparkFun Stepoko (ROB-13155)*](https://www.sparkfun.com/products/13155)
 
 Version History
 ---------------
 * [v1.0](https://github.com/sparkfun/SparkFun_Stepoko/tree/V_1_0) - Released to Reds
 * [v1.1](https://github.com/sparkfun/SparkFun_Stepoko/tree/V_1_1) - Changed pot symbol name and 'top-side' resistor value
-
-
+* [v1.2](https://github.com/sparkfun/SparkFun_Stepoko/tree/V_1_2) - Updated capacitor values, documentation finished
 
 License Information
 -------------------
@@ -59,5 +44,3 @@ If you have any questions or concerns on licensing, please contact techsupport@s
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
